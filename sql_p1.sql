@@ -1,0 +1,1 @@
+SELECT * FROM Epik_sale_Analysis.epik_sales;
