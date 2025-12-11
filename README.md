@@ -1,8 +1,8 @@
-# Project Title: Epik E-commerce Sales Analysis
+# Project Title: E-commerce Sales Data Analytics
 
 ## Project Overview
 
-**Project Title**: Epik E-commerce Sales Analysis
+**Project Title**: E-commerce Sales Data Analytics
 **Level**: Beginner–Intermediate
 **Database**: `Epik_sale_Analysis`
 
