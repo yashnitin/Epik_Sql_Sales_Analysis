@@ -4,22 +4,17 @@ Level: Beginner–Intermediate
 Database: Epik_sale_Analysis
 
 This project demonstrates real SQL skills used in e-commerce analytics.
-The dataset was extracted from Epik, an e-commerce company where I worked for 3 months.
-It contains 2 years of sales data, including customer information, product categories, and transaction-level details.
+The dataset was extracted from Epik, an e-commerce company where I worked.
 
 The project involves creating a database, cleaning the data, performing EDA, and answering business-driven questions using SQL. It is ideal for anyone building a strong foundation in SQL for real-world business analytics.
 
 🎯 Objectives
 
-Database setup: Create and populate the Epik_sale_Analysis database with real sales data.
-
-Data cleaning: Identify missing/unwanted records (e.g., removed Clothing category).
-
-Exploratory Data Analysis (EDA): Understand customers, categories, and purchase behavior.
-
-Business insights: Use SQL queries to answer key operational and revenue-related questions.
-
-E-commerce analytics: Analyze trends, customer purchasing patterns, monthly performance, and peak sales times.
+1.Database setup: Create and populate the Epik_sale_Analysis database with real sales data.
+2.Data cleaning: Identify missing/unwanted records (e.g., removed Clothing category).
+3.Exploratory Data Analysis (EDA): Understand customers, categories, and purchase behavior.
+4.Business insights: Use SQL queries to answer key operational and revenue-related questions.
+5.E-commerce analytics: Analyze trends, customer purchasing patterns, monthly performance, and peak sales times.
 
 📁 Project Structure
 1. Database Setup
@@ -114,6 +109,7 @@ GROUP BY category, gender
 ORDER BY category, gender;
 
 Q7. Best-selling month for each year (based on average sale)
+
 SELECT 
     year, month, avg_sale
 FROM (
@@ -162,27 +158,18 @@ GROUP BY shift;
 📝 Findings
 
 Customer Demographics: The sales data contains a mix of genders and age groups purchasing across Beauty, Electronics, Household, and other categories.
-
 High-Value Transactions: Multiple sales exceeded ₹1000, showing premium product demand.
-
 Category Performance: Beauty and other categories showed strong order volume.
-
 Sales Trends: Monthly average sales highlight the best-performing month in each year.
-
 Customer Insights: The top 5 customers accounted for a significant share of revenue.
-
 Time-of-Day Trends: More orders occurred during specific time shifts (Morning/Afternoon/Evening).
 
 📑 Reports Generated
 
 Sales Summary Report
-
 Customer Demographics & Insights
-
 Category Performance Analysis
-
 Monthly and Shift-Based Sales Trends
-
 Top Customer Analysis
 
 ✅ Conclusion
@@ -190,4 +177,3 @@ Top Customer Analysis
 This project provides a complete introduction to SQL for e-commerce analysis, including database creation, cleaning, EDA, and solving real business problems.
 The insights help understand customer behaviour, top categories, seasonal sales trends, and order patterns.
 
-This SQL project demonstrates strong analytical thinking and is suitable for showcasing on GitHub and your resume.
