@@ -190,5 +190,4 @@ GROUP BY shift;
 This project provides a complete introduction to SQL for e-commerce analysis, including database creation, cleaning, EDA, and solving real business problems.
 The insights help understand customer behaviour, top categories, seasonal sales trends, and order patterns.
 
-This SQL project demonstrates strong analytical thinking and is suitable for showcasing on GitHub and your resume.
 
